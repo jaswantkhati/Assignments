@@ -1,0 +1,49 @@
+ *{
+ 	padding: 0px;
+ 	margin:0px;
+ } 
+
+ body{
+	background-color: #d7e7f4;
+}
+#container{
+	width:954px;
+	margin:auto;
+	background-color: #fff;
+	height: 100vh;
+}
+.head{
+	margin-left: 22px;
+	margin-right: 22px;
+	position: relative;
+
+}
+.logo{
+	float: left;
+}
+a{
+	color: #007BAF
+}
+.leftalign{
+	top:20px;
+	right: 0px;
+	position: absolute;
+	color: #007BAF;
+
+}
+.some{
+	position: absolute;
+	top: 45px;
+	right: 0px;
+}
+
+.hrline{
+	height: 200px;
+	border-bottom: 1px solid black;
+}
+.input{
+	position: absolute;
+	top: 45px;
+	right: 70px;
+	height: 22px;
+}
