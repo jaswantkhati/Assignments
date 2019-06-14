@@ -62,12 +62,13 @@ body{
 }
 .gallery{
 	width: 23%;
-	height: 300px;
+	height: auto;
 	border:1px solid lightgrey;
 	border-radius: 2px;
 	padding: 2px 2px;
 	float: left;
 	margin-bottom: 80px;
+	box-sizing: border-box;
 }
 .label{
 	margin-left: 33px;
@@ -90,12 +91,27 @@ body{
 	padding: 5px;
 	border-radius: 2px;
 	border:none;
-
 }
-#g3{
+#gallery3{
 	margin-left: 18px;
 	margin-right: 18px;
 }
-#g2{
+#gallery2{
 	margin-left: 18px;
 }
+.copy{
+	margin-left: 150px;
+	margin-right: 150px;
+}
+.copy p{
+	clear: both;
+}
+@media screen and (max-width: 992px) {
+  .gallery {
+    width: 46%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .gallery {
+    width: 100%;
+  }
