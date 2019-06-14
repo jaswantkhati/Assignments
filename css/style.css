@@ -12,31 +12,37 @@
 	background-color: #fff;
 	height: 100vh;
 }
-#head{
+.head{
 	margin-left: 22px;
 	margin-right: 22px;
 	position: relative;
 
 }
-#logo{
+.logo{
 	float: left;
 }
-#leftalign{
+a{
+	color: #007BAF
+}
+.leftalign{
 	top:20px;
 	right: 0px;
 	position: absolute;
 	color: #007BAF;
 
 }
-#some{
+.some{
 	position: absolute;
 	top: 40px;
 	right: 0px;
 }
-img{
-	top: 10px;
-}
-#hrline{
+
+.hrline{
 	height: 200px;
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
+}
+.input{
+	position: absolute;
+	top: 45px;
+	right: 70px;
 }
