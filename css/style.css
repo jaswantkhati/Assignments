@@ -33,7 +33,7 @@ a{
 }
 .some{
 	position: absolute;
-	top: 40px;
+	top: 45px;
 	right: 0px;
 }
 
@@ -45,4 +45,5 @@ a{
 	position: absolute;
 	top: 45px;
 	right: 70px;
+	height: 22px;
 }
