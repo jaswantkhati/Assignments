@@ -5,8 +5,7 @@
 body{
     position:relative;
 }
-
-.main{
+main{
     width: 33.3%;
     height: 250px;
     margin:auto;
