@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.wrap{
+    width:80%;
+    height: auto;
+    margin: auto;
+    margin-top:200px;
+}
+.wrap ,  th , td{
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+th{
+    background-color: darkslategrey;
+}
+.row2{
+    background-color:lightgray;
+}
+td, th{
+    text-align:center;
+    padding: 5px;
+}
+.nobdr{
+    border-top:1px solid lightgray;
+}
+.bdrbotm{
+    border-bottom: 1px solid lightgray;
+}
