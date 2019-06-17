@@ -1,0 +1,156 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: system-ui;
+}
+.navigation{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}
+.nav{
+	margin-left: 140px;
+	margin-right: 150px;
+}
+.brand{
+	float: left;
+	color: #b3b6b7;
+	margin-top: 14px;
+}
+.nav ul{
+	list-style-type: none;
+}
+.nav ul li{
+	float: left;
+	color: #b3b6b7;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+.container{
+	height: 100vh;
+	width: 80%;
+	margin :auto;
+	position :relative;
+}
+.main{
+	height: 700px;
+	width: 65%;
+	float: left;
+	box-sizing: border-box;
+}
+.section{
+	height: 500px;
+	width: 30%;
+	box-sizing: content-box;
+	position: absolute;
+	right: 0px;
+	margin-top: 20px;
+}
+#test{
+	color: #46c1e2;
+}
+.title{
+	margin-top: 20px;
+    line-height: 40px;
+}
+.timing{
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+.small{
+	font-size: 11px;
+}
+.text{
+	height: 380px;
+	width: 100%;
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	margin-bottom: 20px;
+}
+#copy{
+	margin-bottom: 20px;
+}
+.para2{
+	font-size: 12px;
+}
+.aside{
+	height: 400px;
+	width: 100%;
+}
+.blog-search{
+	height: 80px;
+	width: 100%;
+	background-color: #e6e6e6;
+	border-radius: 5px;
+}
+.blog-cat{
+	height: 130px;
+	width: 100%;
+	background-color: #e6e6e6;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+.blog-search input[type=text]{
+	padding: 3px;
+	border: 1px solid grey;
+	border-width: 1px 0px 1px 1px;
+	border-radius: 2px;
+  float: left;
+  width: 70%;
+  margin-left: 30px;
+  background: #f1f1f1;
+  border-collapse: collapse;
+}
+.blog-search button{
+	padding: 3px;
+	background-color: white;
+	border:none;
+	border: 1px solid grey;
+	border-radius: 2px;
+}
+.blog-search h4{
+	margin-left: 30px;
+	padding-top: 20px;
+	padding-bottom:5px;
+}
+.name{
+	height: 100%;
+	width: 80%;
+	margin: auto;
+	margin-top:10px;
+}
+.blog-cat h4{
+	padding-top: 20px;
+	padding-bottom:5px;
+}
+.right{
+	float: left;
+}
+.right ul{
+	list-style-type: none;
+}
+.left{
+	float: right;
+}
+.left ul{
+	list-style-type: none;
+}
+.right ul li{
+	color: #46c1e2;
+}
+.left ul li{
+	color: #46c1e2;
+}
+.matter{
+	height: 100%;
+	width: 80%;
+	margin: auto;
+	margin-top:10px;
+}
