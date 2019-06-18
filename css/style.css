@@ -1,0 +1,392 @@
+                * {
+                    margin: 0px;
+                    padding: 0px;
+                    box-sizing: border-box;
+                    font-family: Arial, sans-serif;
+                }
+                
+                body {
+                    background-image: url("../images/background.jpg");
+                }
+                
+                .container {
+                    height: 900px;
+                    width: 75%;
+                    margin: auto;
+                }
+                
+                .header {
+                    width: 100%;
+                    height: 130px;
+                    background-color: aliceblue;
+                    border-bottom-left-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                    overflow: hidden;
+                }
+                
+                .brand {
+                    width: 100%;
+                    height: 70%;
+                    padding: 10px 10px;
+                }
+                
+                .brand img {
+                    float: left;
+                    margin-right: 80px;
+                }
+                
+                #center {
+                    float: left;
+                    margin-right: 60px;
+                    color: rgb(75, 115, 104);
+                    font-family: "Gill Sans", sans-serif;
+                    margin-top: 20px;
+                    font-family: Arial, sans-serif;
+                    font-weight: 100;
+                }
+                
+                .sites {
+                    float: right;
+                    margin-right: 20px;
+                    text-align: center;
+                }
+                
+                .sites input {
+                    float: left;
+                    border: 1px solid black;
+                    border-width: 1px 0px 1px 1px;
+                    padding: 3px;
+                    margin-top: 10px;
+                    width: 250px;
+                }
+                
+                #green {
+                    color: rgb(75, 115, 104);
+                }
+                
+                #brown {
+                    color: rgb(120, 75, 73);
+                    text-decoration: underline;
+                }
+                
+                .btn1 {
+                    background-image: linear-gradient(rgb(185, 144, 144), rgb(83, 43, 41));
+                    margin-top: 10px;
+                    padding: 3px;
+                    border: 1px solid black;
+                    color: aliceblue;
+                }
+                
+                .nav {
+                    width: 100%;
+                    height: 38px;
+                    background-image: linear-gradient(rgb(185, 144, 144), rgb(83, 43, 41));
+                    color: white;
+                }
+                
+                .nav ul {
+                    list-style-type: none;
+                }
+                
+                .nav ul li {
+                    float: left;
+                    padding: 10px 20px 10px 20px;
+                    border-right: 1px solid white;
+                }
+                
+                .nav h2 {
+                    float: right;
+                    margin-top: 3px;
+                    margin-right: 2px;
+                }
+                
+                .main {
+                    width: 100%;
+                    height: 950px;
+                    background-color: aliceblue;
+                    margin-top: 20px;
+                    border-radius: 10px;
+                }
+                
+                .aside {
+                    height: 800px;
+                    width: 25%;
+                    padding: 10px;
+                    float: left;
+                }
+                
+                .product {
+                    width: 100%;
+                    height: 260px;
+                    border: 1px solid brown;
+                    background-color: rgb(242, 242, 242);
+                }
+                
+                .footer {
+                    width: 100%;
+                    height: 130px;
+                    clear: both;
+                    position: relative;
+                }
+                
+                .frst {
+                    height: 100%;
+                    width: 22%;
+                    border-right: 1px solid rgb(120, 75, 73);
+                    padding: 50px 10px 20px 10px;
+                    float: left;
+                }
+                
+                .second {
+                    width: 15%;
+                    border-right: 1px solid rgb(120, 75, 73);
+                    position: absolute;
+                    left: 22%;
+                    height: 100%
+                }
+                
+                .second h4 {
+                    margin-left: 20px;
+                    margin-bottom: 10px;
+                    color: rgb(120, 75, 73)
+                }
+                
+                .second ul {
+                    list-style-type: none;
+                }
+                
+                .second ul li {
+                    margin-left: 20px;
+                    margin-bottom: 5px;
+                    font-size: 12px;
+                }
+                
+                .product h2 {
+                    background-image: linear-gradient(rgb(185, 144, 144), rgb(83, 43, 41));
+                    padding: 3px;
+                    color: aliceblue;
+                }
+                
+                .product ul {
+                    list-style-type: none;
+                }
+                
+                .product ul li {
+                    margin-left: 20px;
+                    margin-top: 10px;
+                }
+                
+                #img {
+                    height: 40px;
+                    width: 60px;
+                    float: left;
+                }
+                
+                .grp {
+                    height: 30px;
+                    width: 210px;
+                    background-color: brown;
+                    font-size: 12px;
+                    padding-left: 0px;
+                    margin-top: 10px;
+                    margin-left: 20px;
+                    border-radius: 8px;
+                    color: white;
+                }
+                
+                .need-ass {
+                    height: 190px;
+                    width: 100%;
+                    border: 1px solid brown;
+                    margin-top: 10px;
+                    background-image: url("../images/ass.jpg");
+                    background-repeat: no-repeat;
+                    position: relative;
+                }
+                
+                .need-ass h2 {
+                    background-color: rgba(249, 250, 249, 0.5);
+                    padding: 3px;
+                }
+                
+                #head2 {
+                    background-color: rgba(249, 250, 249, 0.5);
+                    padding: 3px;
+                    bottom: 0px;
+                    position: absolute;
+                    width: 100%;
+                }
+                
+                .get-updates {
+                    height: 300px;
+                    width: 100%;
+                    border: 1px solid brown;
+                    margin-top: 10px;
+                    background-color: rgb(242, 242, 242)
+                }
+                
+                .get-updates h2 {
+                    background-image: linear-gradient(rgb(185, 144, 144), rgb(83, 43, 41));
+                    padding: 3px;
+                    color: aliceblue;
+                }
+                
+                .form {
+                    width: 80%;
+                    margin: auto;
+                    text-align: center
+                }
+                
+                .form p {
+                    margin-bottom: 10px;
+                }
+                
+                .form input {
+                    margin-bottom: 10px;
+                }
+                
+                .form img {
+                    margin: 5px;
+                }
+                
+                .form button {
+                    background-image: linear-gradient(rgb(185, 144, 144), rgb(83, 43, 41));
+                    border: 1px solid rgb(120, 75, 73);
+                    margin-bottom: 10px;
+                    padding: 3px;
+                    color: aliceblue
+                }
+                
+                .right-aside {
+                    height: 800px;
+                    width: 75%;
+                    padding: 5px;
+                    float: right;
+                }
+                
+                .big-img {
+                    background-image: url("../images/image1.jpg");
+                    height: 350px;
+                    width: 100%;
+                    background-repeat: no-repeat;
+                    border: 1px solid yellow;
+                    position: relative;
+                }
+                
+                .text {
+                    width: 200px;
+                    height: auto;
+                    background-color: rgba(249, 250, 249, 0.5);
+                    padding: 10px;
+                    font-size: 22px;
+                    bottom: 20px;
+                    right: 10px;
+                    position: absolute;
+                }
+                
+                .text2 {
+                    width: auto;
+                    height: auto;
+                    background-color: rgba(249, 250, 249, 0.5);
+                    padding: 4px;
+                    font-size: 22px;
+                    bottom: 0px;
+                    left: 5px;
+                    position: absolute;
+                    margin: -5px;
+                }
+                
+                .pad {
+                    height: 350px;
+                    width: 100%;
+                    margin-top: 5px;
+                }
+                
+                .pad1 {
+                    width: 75%;
+                    height: 100%;
+                    padding: 5px;
+                    float: left;
+                }
+                
+                .pad1 ul {
+                    margin-left: 30px;
+                    list-style-image: url("../images/leaf.jpg");
+                }
+                
+                .pad ul li {
+                    line-height: 30px;
+                }
+                
+                .pad1 h3 {
+                    margin-left: 30px;
+                    margin-bottom: 20px;
+                }
+                
+                .pad2 {
+                    width: 25%;
+                    height: 100%;
+                    padding: 5px;
+                    float: right;
+                }
+                
+                .letest {
+                    width: 100%;
+                    height: 200px;
+                    border: 1px solid brown;
+                    background-color: rgb(242, 242, 242)
+                }
+                
+                .letest h3 {
+                    padding: 3px;
+                    background-image: linear-gradient(rgb(185, 144, 144), rgb(83, 43, 41));
+                    color: aliceblue;
+                }
+                
+                .letest p {
+                    margin-top: 15px;
+                    font-size: 12px;
+                    padding: 5px;
+                }
+                
+                .certifie {
+                    width: 100%;
+                    height: 150px;
+                    border: 1px solid brown;
+                    margin-top: 10px;
+                    background-color: rgb(242, 242, 242)
+                }
+                
+                .certifie h3 {
+                    padding: 3px;
+                    background-image: linear-gradient(rgb(185, 144, 144), rgb(83, 43, 41));
+                    color: aliceblue;
+                }
+                
+                .certifie ul {
+                    list-style-type: none;
+                }
+                
+                .certifie ul li {
+                    line-height: 30px;
+                    font-size: 12px;
+                }
+                
+                #sec1 {
+                    left: 37%;
+                }
+                
+                #sec2 {
+                    left: 52%;
+                }
+                
+                #sec3 {
+                    left: 67%;
+                }
+                
+                .third {
+                    float: right;
+                    padding-top: 50px;
+                    padding-right: 20px;
+                    font-size: 13px;
+                }
