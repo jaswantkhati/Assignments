@@ -18,7 +18,10 @@
                 .header {
                     width: 100%;
                     height: 130px;
-                    background-color: aliceblue;
+                    background-color: white;
+                    background-image: url(../images/leafs.jpg);
+                    background-repeat: no-repeat;
+                    background-position-x: 70%;
                     border-bottom-left-radius: 10px;
                     border-bottom-right-radius: 10px;
                     overflow: hidden;
@@ -38,7 +41,10 @@
                 #center {
                     float: left;
                     margin-right: 60px;
-                    color: rgb(75, 115, 104);
+                    background: linear-gradient(rgb(157, 179, 173), rgb(75, 115, 104));
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    color: transparent;
                     font-family: "Gill Sans", sans-serif;
                     margin-top: 20px;
                     font-family: Arial, sans-serif;
@@ -102,10 +108,11 @@
                 
                 .main {
                     width: 100%;
-                    height: 950px;
+                    height: 910px;
                     background-color: aliceblue;
                     margin-top: 20px;
                     border-radius: 10px;
+                    margin-bottom: 50px;
                 }
                 
                 .aside {
@@ -124,16 +131,17 @@
                 
                 .footer {
                     width: 100%;
-                    height: 130px;
+                    height: 110px;
                     clear: both;
                     position: relative;
+                    background: linear-gradient( aliceblue, rgb(206, 205, 205))
                 }
                 
                 .frst {
                     height: 100%;
-                    width: 22%;
+                    width: 24%;
                     border-right: 1px solid rgb(120, 75, 73);
-                    padding: 50px 10px 20px 10px;
+                    padding: 30px 10px 20px 20px;
                     float: left;
                 }
                 
@@ -141,11 +149,11 @@
                     width: 15%;
                     border-right: 1px solid rgb(120, 75, 73);
                     position: absolute;
-                    left: 22%;
+                    left: 24%;
                     height: 100%
                 }
                 
-                .second h4 {
+                .second h5 {
                     margin-left: 20px;
                     margin-bottom: 10px;
                     color: rgb(120, 75, 73)
@@ -163,8 +171,14 @@
                 
                 .product h2 {
                     background-image: linear-gradient(rgb(185, 144, 144), rgb(83, 43, 41));
-                    padding: 3px;
+                    padding: 1px 3px 3px 3px;
                     color: aliceblue;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    font-weight: 200;
+                }
+                
+                .product h2::first-letter {
+                    font-size: 30px;
                 }
                 
                 .product ul {
@@ -229,12 +243,19 @@
                     background-image: linear-gradient(rgb(185, 144, 144), rgb(83, 43, 41));
                     padding: 3px;
                     color: aliceblue;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    font-weight: 200
+                }
+                
+                .get-updates h2::first-letter {
+                    font-size: 30px;
                 }
                 
                 .form {
                     width: 80%;
                     margin: auto;
-                    text-align: center
+                    text-align: center;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
                 }
                 
                 .form p {
@@ -274,7 +295,7 @@
                 }
                 
                 .text {
-                    width: 200px;
+                    width: 250px;
                     height: auto;
                     background-color: rgba(249, 250, 249, 0.5);
                     padding: 10px;
@@ -303,7 +324,7 @@
                 }
                 
                 .pad1 {
-                    width: 75%;
+                    width: 70%;
                     height: 100%;
                     padding: 5px;
                     float: left;
@@ -321,10 +342,15 @@
                 .pad1 h3 {
                     margin-left: 30px;
                     margin-bottom: 20px;
+                    background: linear-gradient(rgb(157, 179, 173), rgb(75, 115, 104));
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    color: transparent;
+                    font-family: "Gill Sans", sans-serif;
                 }
                 
                 .pad2 {
-                    width: 25%;
+                    width: 30%;
                     height: 100%;
                     padding: 5px;
                     float: right;
@@ -341,6 +367,12 @@
                     padding: 3px;
                     background-image: linear-gradient(rgb(185, 144, 144), rgb(83, 43, 41));
                     color: aliceblue;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    font-weight: 200;
+                }
+                
+                .letest h3::first-letter {
+                    font-size: 25px;
                 }
                 
                 .letest p {
@@ -361,6 +393,12 @@
                     padding: 3px;
                     background-image: linear-gradient(rgb(185, 144, 144), rgb(83, 43, 41));
                     color: aliceblue;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    font-weight: 200;
+                }
+                
+                .certifie h3::first-letter {
+                    font-size: 25px;
                 }
                 
                 .certifie ul {
@@ -368,25 +406,26 @@
                 }
                 
                 .certifie ul li {
-                    line-height: 30px;
+                    line-height: 25px;
                     font-size: 12px;
+                    margin-left: 5px;
                 }
                 
                 #sec1 {
-                    left: 37%;
+                    left: 39%;
                 }
                 
                 #sec2 {
-                    left: 52%;
+                    left: 54%;
                 }
                 
                 #sec3 {
-                    left: 67%;
+                    left: 69%;
                 }
                 
                 .third {
                     float: right;
-                    padding-top: 50px;
+                    padding-top: 40px;
                     padding-right: 20px;
-                    font-size: 13px;
+                    font-size: 11px;
                 }
